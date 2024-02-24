@@ -1,0 +1,260 @@
+body{
+    background-image: URL("background.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+table
+{ 
+    margin-top: -10px;
+    margin-left: -10px;
+    width:100%;
+    height: 60px;
+    background-color:whitesmoke;
+    opacity: .9
+
+}
+img 
+{
+
+    width: 200px;
+    height: 100px;
+    transition-property: transform;
+    transition-duration: 3s;
+    
+}
+img:hover
+{ 
+    
+    
+    box-shadow: 2px 2px 20px 5px cyan;
+     border-radius: 10px;
+    transform: scale(1,2);
+}
+#top
+{ 
+
+    height: 100px;
+    font-weight: bold;
+    font-family:Garamond;
+    color: darkmagenta;
+    font-size: 10px;
+}
+h1 
+{
+    font-size: 30px;
+
+}
+h2
+{
+  font-size: 20px;
+  margin-top: -20px;
+  color: darkcyan;
+  
+}
+h3
+{
+  margin-top: -10px;
+  font-size: 18px;
+  color: hotpink;
+ }
+
+
+#menuitem a
+{
+    display: block;
+    text-decoration: none;
+    color:white;
+    font-size:25px;
+    padding:20px;
+    box-shadow: 2px 2px 20px 5px cyan;
+     border-radius: 10px;
+}
+#menuitem
+{
+    display:none;
+    background-color:darkblue;
+}
+#menu1:hover #menuitem, #menu2:hover #menuitem, #menu3:hover #menuitem,#menu4:hover #menuitem,#menu5:hover #menuitem
+
+{
+    display: block;
+}
+#menu1
+{
+display: inline-block;
+}
+#menu1 button ,#menu2 button ,#menu3 button,#menu4 button,#menu5 button
+{
+cursor:pointer;
+border: 0;
+
+background-color:darkblue;
+font-size: 20px;
+color:burlywood;
+padding: 10px;
+}
+#menu1 button:hover, #menu2 button:hover, #menu3 button:hover,#menu4 button:hover,#menu5 button:hover
+{
+cursor: pointer;
+
+font-size: 25px;
+color:whitesmoke;
+background-color:darkcyan;
+
+}
+#menuitem a:hover
+{
+
+    display: block;
+    text-decoration: none;
+    color:whitesmoke;
+    font-size:25px;
+    padding:20px;
+    background-color: darkcyan;
+}
+#allmenu #menu1 ,#menu2, #menu3,#menu4,#menu5
+{
+
+display: inline-block;
+padding-right: 10PX;
+top:135px;
+
+}
+
+#allmenu,#menu1
+{
+position: fixed;
+left:0px;
+
+}
+#allmenu ,#menu2
+{
+position: fixed;
+left:100px;
+
+}
+#allmenu ,#menu3
+{
+position: fixed;
+left:200px;
+}
+#allmenu ,#menu4
+{
+position: fixed;
+left:360px;
+
+}#allmenu ,#menu5
+{
+position: fixed;
+left:480px;
+
+}.search
+{
+position: fixed;
+left:900px;
+top:135px;
+}
+.srch
+{width:300px;
+height:40px ;
+
+
+}
+#allmenu
+{
+
+position:sticky;
+
+width:100%;
+height:70px;
+/*	background-color: dodgerblue;*/
+opacity: .9;
+}
+#i
+{
+margin-left:700px ;
+font-size: 20px;
+color: darkcyan;
+
+}
+
+.btn
+{
+width: 70px;
+height: 40px;
+background-color: darkblue;
+color: burlywood;
+border: 0;
+}
+.ad
+{ text-align: center;
+font-size: 40px;
+color: burlywood;
+
+
+font-family: sans-serif;
+font-weight: bold;
+width: 100PX;
+height: auto;
+
+}
+.ug
+{
+font-size: 30px;
+color: darkorange;
+
+font-family: sans-serif;
+font-weight: bold;
+}
+.content 
+{ background-color:  darkblue;
+opacity: .9;
+float: right;
+margin-top:50px;
+padding: 40PX;
+width: 500PX;
+height: 160PX;
+}
+.APPLY a, button
+{   
+text-decoration: none;
+background-color:darkorange;
+font-size: 30PX;
+color: whitesmoke;
+
+}
+.APPLY a:hover 
+{
+text-decoration: none;
+background-color:darkcyan;
+font-size: 35PX;
+color: whitesmoke;
+}
+.banner img
+{
+text-decoration: none;
+margin-top: 100px;
+margin-left: 50px;
+width:450px;
+height:210px;
+border:2px solid darkblue;
+
+}
+.banner :hover:visited
+{ 
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 450px;
+    height: 210px;
+    border:2px solid darkblue;
+    box-shadow: 2px 2px 20px 5px cyan;
+     border-radius: 10px;
+    transform: scale(1,2);
+
+}
+#menu1 i
+{
+color: royalblue ;
+}
